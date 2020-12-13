@@ -36,7 +36,7 @@ void draw(){
 }
 void title(){
 fill(255,255,255, 51);
-text("FLOP ATARI BRAKEOUT",height/3,width/2);
+text("FLOP ATARI BRAEKOUT",height/3,width/2);
 }
 void checkLevel(){
   if(clearBlocks()){
@@ -47,8 +47,7 @@ void checkLevel(){
     rect(190, height/2 + 130, 400, 30);
     rect(250, height/2 + 160, 400, 30);    
     fill(255,0,255);  
-    text("You Cleared all the blocks!" , 200, height/2+152);
-    text("Click anywhere to continue" , 260, height/2+182); 
+    text("You Cleared all the blocks! Click anywhere to continue" , 260, height/2+182); 
     if(mousePressed){
       if(level%2==0){
         rows *= 2;
@@ -74,8 +73,7 @@ void showLives(){
     rect(190, height/2 + 130, 400, 30);
     rect(250, height/2 + 160, 400, 30);    
     fill(255,0,255);  
-    text("Sorry, you ran out of lives...." , 200, height/2+152);
-    text("Click anywhere to restart" , 260, height/2+182);    
+    text("Sorry, you ran out of lives.... Click anywhere to restart" , 260, height/2+182);    
   }
 }
 
