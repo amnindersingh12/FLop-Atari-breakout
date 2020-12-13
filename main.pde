@@ -18,8 +18,7 @@ void setup(){
   rows = 4;
   columns = 8;
   makeLevel(columns, rows);
-  //file = new SoundFile(this, "song.mp3");
- 
+
 }
 
 void draw(){
@@ -115,6 +114,4 @@ void mousePressed(){
   } else {
     setup();
   } 
-  //file.stop();
-  //file.play();
 }
